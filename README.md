@@ -29,6 +29,7 @@ In the past, all vacation time had to be approved by an immediate manager and th
 
 ## Use case
 the use case Manage Time describes functionality, invoked by the Employee, that includes viewing, creating, and canceling vacation time requests.
+
 **Use case name**: Manage Time
 
 **Actor**: Employee
