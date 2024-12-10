@@ -42,6 +42,8 @@ own vacation time.
 
 **Description**: 
 
+![Manage Time Use Case](https://github.com/user-attachments/assets/464f658c-3392-4b33-b987-a26490057e7c)
+
 ## Entities (Data Model)
 
 ## Flowchart [Flow]
