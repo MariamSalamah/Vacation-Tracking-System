@@ -30,11 +30,15 @@ In the past, all vacation time had to be approved by an immediate manager and th
 ## Use case
 the use case Manage Time describes functionality, invoked by the Employee, that includes viewing, creating, and canceling vacation time requests.
 **Use case name**: Manage Time
+
 **Actor**: Employee
+
 **Goal**: The employee wishes to submit a new request for vacation time.
+
 **Preconditions**: The employee is authenticated by the portal framework and
 identified as an employee of the company with privileges to manage his or her
 own vacation time.
+
 **Description**: 
 
 ## Entities (Data Model)
