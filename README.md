@@ -4,11 +4,25 @@
 A Vacation Tracking System (VTS) will provide individual employees with the capability to manage their own vacation time, sick leave, and personal time off, without having to be an expert in company policy or the local facility’s leave policies.
 The main goal of this application is to improve the internal business processes of this organization, at least with respect to the time it takes to manage vacation time requests.
 ## Functional Requirements
-1. 
+ 1. Provides access to requests for the previous calendar year, and allows requests to be made up to a year and a half in the future.
+ 2. Uses e-mail notification to request manager approval and notify employees of request status changes.
+ 3. Keeps activity logs for all transactions.
+ 4. Enables the HR and system administration personnel to override all actions restricted by rules, with logging of those overrides.
+ 5. Allows managers to directly award personal leave time (with system-set limits).
+ 6. Provides a Web service interface for other internal systems to query any given employee’s vacation request summary.
+ 7. Interfaces with the HR department legacy systems to retrieve required employee information and changes.
+ 8. Implements a flexible rules-based system for validating and verifying leave time requests.
+ 9. Enables manager approval (optional).
+
+
+
+ 
+
+
 
 ## Non-Functional Requirements
-1. **Usability**: The system must be easy to use
-2. 
+- **Usability**: The system must be easy to use
+- **Compatibility**: Uses existing hardware and middleware
 
 ## Constraints
 
@@ -40,7 +54,8 @@ the use case Manage Time describes functionality, invoked by the Employee, that 
 identified as an employee of the company with privileges to manage his or her
 own vacation time.
 
-**Description**: 
+**Description**: This use case by far is the most frequently invoked and the one most
+viewed by all the actors of the system. 
 
 ![Manage Time Use Case](https://github.com/user-attachments/assets/464f658c-3392-4b33-b987-a26490057e7c)
 
