@@ -57,7 +57,7 @@ own vacation time.
 **Description**: This use case by far is the most frequently invoked and the one most
 viewed by all the actors of the system. 
 
-![Manage Time Use Case](https://github.com/user-attachments/assets/464f658c-3392-4b33-b987-a26490057e7c)
+![Manage Time Use Case](https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Use%20Case.drawio.svg)
 
 ## Entities (Data Model)
 
