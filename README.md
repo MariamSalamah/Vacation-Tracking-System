@@ -7,10 +7,11 @@
    - [Constraints](#constraints)
    - [Domain](#domain)
    - [Actors](#actors-of-the-system)
-   - [Manage Time Use Case](#use-case)
+   - [Manage Time](#manage_time)
+     - [Use Case](#use-case)
+     - [Database Model](#entities)
      - [Flow Chart](#flowchart)
      - [Sequence Diagram](#sequence-diagram)
-     - [Database Model](#entities)
      - [PseudoCode](#pseudocode)
     
 ## Project Vision
