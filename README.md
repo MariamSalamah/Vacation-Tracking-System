@@ -41,6 +41,7 @@ The main goal of this application is to improve the internal business processes 
 
 ## Domain 
 **(Problem definition)**
+
 For many businesses today, the independence of workers has been ever increasing. 
 It is not uncommon for workers to divide their time across multiple projects and to report to multiple project managers. 
 As a result, managers have fewer informal interactions with their workers and find it
@@ -73,9 +74,10 @@ viewed by all the actors of the system.
 
 ![Manage Time Use Case](https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Use%20Case.drawio.svg)
 
-## Entities **(Data Model)**
+## Entities 
+**(Data Model)**
 
-## Flowchart [Flow]
+## Flowchart 
 
 ## Sequence diagram
 
