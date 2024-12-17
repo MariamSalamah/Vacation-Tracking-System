@@ -7,7 +7,7 @@
    - [Constraints](#constraints)
    - [Domain](#domain)
    - [Actors](#actors-of-the-system)
-   - [Manage Time](#manage_time)
+   - [Manage Time](#manage-time)
      - [Use Case](#use-case)
      - [Database Model](#entities)
      - [Flow Chart](#flowchart)
