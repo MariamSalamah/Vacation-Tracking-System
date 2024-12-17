@@ -79,6 +79,7 @@ viewed by all the actors of the system.
 **(Data Model)**
 
 ## Flowchart 
+![Creat Request Flowchart](https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Create%20Request%20FlowChart.svg)
 
 ## Sequence diagram
 
