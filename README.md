@@ -84,3 +84,29 @@ viewed by all the actors of the system.
 ## Sequence diagram
 
 ## Pseudocode
+
+**Create Vacation Request**
+```plaintext
+FUNCTION CreateVacationRequest(vacationDetails):
+
+Step 1: Login and Authentication 
+if (employeeID is notAuthorized) do:
+    Return "User is not authorized"
+end else do: 
+        Go to Request Page
+end
+
+Step 2: newVacationRequest(vacationDetails)
+Request Page return DateAndTime(availableVacation)
+
+Step 3: chooseVacationTime(vacationDetails)
+if (vacationDetails is right) do:
+    Redirect Employee to Main VTS Page
+    TODO - Request is placed in a state of pending approval
+    The Details of Request saved into Database
+end else do:
+        Request Page return DateAndTime(availableVacation)
+        TODO - Highlight the incorrect details
+end
+END FUNCTION
+```
