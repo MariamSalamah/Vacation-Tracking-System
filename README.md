@@ -96,43 +96,66 @@ viewed by all the actors of the system.
 FUNCTION CreateVacationRequest(vacationDetails):
 
 Step 1: Login and Authentication 
-if (employeeID is notAuthorized) do:
-    Return "User is not authorized"
-end else do: 
-        Go to Request Page
-end
+        if (employeeID is notAuthorized) do:
+            Return "User is not authorized"
+        end else do: 
+                Go to Request Page
+        end
 
 Step 2: newVacationRequest(vacationDetails)
-Request Page return DateAndTime(availableVacation)
+        Request Page return DateAndTime(availableVacation)
 
 Step 3: chooseVacationTime(vacationDetails)
-if (vacationDetails is right) do:
-    Redirect Employee to Main VTS Page
-    TODO - Request is placed in a state of pending approval
-    The Details of Request saved into Database
-    An email notification is immediately sent to the manager
-end else do:
-        Request Page return DateAndTime(availableVacation)
-        TODO - Highlight the incorrect details
-end
+        if (vacationDetails is right) do:
+            Redirect Employee to Main VTS Page
+            TODO - Request is placed in a state of pending approval
+            The Details of Request saved into Database
+            An email notification is immediately sent to the manager
+        end else do:
+                Request Page return DateAndTime(availableVacation)
+                TODO - Highlight the incorrect details
+        end
 
-Step 4:  Login and Authentication for Manager
-if (managerID is notAuthorized) do:
-    Return "User is not authorized"
-end else do: 
-        Go to VTS Page
-end
+Step 4: Login and Authentication for Manager
+        if (managerID is notAuthorized) do:
+            Return "User is not authorized"
+        end else do: 
+                Go to VTS Page
+        end
 
 Step 5: Choose Request Pending For Approval
-Request Page return Request(requestDetails)
+        Request Page return Request(requestDetails)
 
 Step 6: submitState(approvalState)
-if (approvalState is approved) do:
-    TODO - The internal state of request is changed to approved
-end else do:
-    TODO - The internal state of request is changed to rejected
-end
+        if (approvalState is approved) do:
+            TODO - The internal state of request is changed to approved
+        end else do:
+            TODO - The internal state of request is changed to rejected
+        end
+
 Step 7: Redirect Employee to Main VTS Page 
-TODO - An email notification is immediately sent to the manager
+        TODO - An email notification is immediately sent to the manager
+        
+END FUNCTION
+```
+
+
+**Withdraw Vacation Request**
+
+```plaintext
+FUNCTION WithdrawVacationRequest(vacationDetails):
+Step 1: The employee chooses one of the Requests 
+        that its state is "pending for approval" from VTS main Page
+
+Step 2: Employee chooses to withdraw that Request
+
+Step 3: confirmWithdrawRequest(request)
+        VTS asks the employee to confirm the withdraw
+        Employee confirms the desire to withdraw this request
+
+Step 4: TODO - the request is removed from the manager’s list of pending approvals
+        An email notification is sent to the manager
+        TODo - The system updates request state to "Withdrawn"
+
 END FUNCTION
 ```
