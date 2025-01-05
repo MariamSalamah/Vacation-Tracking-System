@@ -79,8 +79,13 @@ viewed by all the actors of the system.
 **(Data Model)**
 
 ## Flowchart 
-![Creat Request Flowchart](https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Create%20Request%20flowchart.svg)
-![Withdraw Request Flowchart](https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Withdraw%20Request%20Flowchart.svg)
+#### Main Flow
+<img src="https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Create%20Request%20flowchart.svg" alt="Creat Request Flowchart" width="80%" />
+
+#### Alternative Flows
+<p float="left">
+  <img src="https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Withdraw%20Request%20Flowchart.svg" alt="Withdraw Request Flowchart" width="35%" />
+</p>
 
 ## Sequence diagram
 
