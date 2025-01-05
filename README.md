@@ -133,6 +133,7 @@ Step 6: submitState(approvalState)
         if (approvalState is approved) do:
             TODO - The internal state of request is changed to approved
         end else do:
+            Manager write an explanation why the request is rejected    
             TODO - The internal state of request is changed to rejected
         end
 
@@ -153,12 +154,41 @@ Step 1: The employee chooses one of the Requests
 Step 2: Employee chooses to withdraw that Request
 
 Step 3: confirmWithdrawRequest(request)
-        VTS asks the employee to confirm the withdraw
+        VTS asks the employee to confirm the withdraw process
         Employee confirms the desire to withdraw this request
 
 Step 4: TODO - the request is removed from the manager’s list of pending approvals
         An email notification is sent to the manager
         TODo - The system updates request state to "Withdrawn"
+
+END FUNCTION
+```
+
+**Cancel Vacation Request**
+```plaintext
+FUNCTION CancelVacationRequest(vacationDetails):
+
+Step 1: The employee chooses one of the Requests 
+        that its state is "Approved" from VTS main Page
+
+Step 2: Employee chooses to cancel that Request
+
+Step 3: if(CanceledRequestTime is in Future) do:
+            confirmCancelRequest(request)
+            VTS asks the employee to confirm the cancel process
+            Employee confirms the desire to cancel this request
+        end else do:
+            confirmCancelRequest(request)
+            VTS asks the employee to confirm the cancel process
+            Employee confirms the desire to cancel this request
+            and Employee is asked to write an explanation
+            because the request in recent past not in future   
+
+        end
+Step 4: The system updates the state of request to canceled
+        TODO - An email notification is immediately sent to the manager
+
+Step 5: Redirect Employee to Main VTS Page 
 
 END FUNCTION
 ```
