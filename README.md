@@ -80,6 +80,7 @@ viewed by all the actors of the system.
 
 ## Flowchart 
 ![Creat Request Flowchart](https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Create%20Request%20flowchart.svg)
+![Withdraw Request Flowchart](https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Withdraw%20Request%20Flowchart.svg)
 
 ## Sequence diagram
 
