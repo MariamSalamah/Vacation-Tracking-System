@@ -104,9 +104,29 @@ if (vacationDetails is right) do:
     Redirect Employee to Main VTS Page
     TODO - Request is placed in a state of pending approval
     The Details of Request saved into Database
+    An email notification is immediately sent to the manager
 end else do:
         Request Page return DateAndTime(availableVacation)
         TODO - Highlight the incorrect details
 end
+
+Step 4:  Login and Authentication for Manager
+if (managerID is notAuthorized) do:
+    Return "User is not authorized"
+end else do: 
+        Go to VTS Page
+end
+
+Step 5: Choose Request Pending For Approval
+Request Page return Request(requestDetails)
+
+Step 6: submitState(approvalState)
+if (approvalState is approved) do:
+    TODO - The internal state of request is changed to approved
+end else do:
+    TODO - The internal state of request is changed to rejected
+end
+Step 7: Redirect Employee to Main VTS Page 
+TODO - An email notification is immediately sent to the manager
 END FUNCTION
 ```
