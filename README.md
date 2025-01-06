@@ -85,7 +85,7 @@ viewed by all the actors of the system.
 #### Alternative Flows
 <p float="left">
   <img src="https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Withdraw%20Request%20Flowchart.svg" alt="Withdraw Request Flowchart" width="22%" />
-  <img src="https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Cancel%20Request%20Flowchart.svg" alt="Cancel Request Flowchart" width="40%" />
+  <img src="https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Cancel%20Request%20Flowchart.svg" alt="Cancel Request Flowchart" width="39%" />
   <img src="https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Edit%20Request%20Flowchart.svg" alt="Cancel Request Flowchart" width="37%" />
 
 
