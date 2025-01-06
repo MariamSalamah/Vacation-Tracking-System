@@ -194,3 +194,26 @@ Step 5: Redirect Employee to Main VTS Page
 
 END FUNCTION
 ```
+**Edit Vacation Request**
+```plaintext
+FUNCTION EditVacationRequest(vacationDetails):
+
+Step 1: The employee chooses one of the Requests 
+        that its state is "pending for approval" from VTS main Page
+Step 2: Employee chooses to edit that Request
+
+Step 3: The VTS displays an editable view to the request
+
+Step 4: editRequestInformation()
+        TODO - Employee can edit title - comments - dates
+Step 5: submitChanges()
+        if (submittedChanges is correct) do:
+        Return The changes are accepted
+        TODO - Redirect Employee to The VTS Home Page
+        end else do: 
+           The VTS displays the editing page again
+           TODO - The VTS highlights and explains all problems
+        end
+
+END FUNCTION
+```
