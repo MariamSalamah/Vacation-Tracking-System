@@ -93,7 +93,7 @@ viewed by all the actors of the system.
 </p>
 
 ## Sequence diagram
-![Manage Time Sequance Diagram](https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Manage%20Time%20Sequance%20Diagram.svg)
+<img src="https://github.com/MariamSalamah/Vacation-Tracking-System/blob/main/Manage%20Time%20Sequance%20Diagram.svg" alt="Manage Time Sequence Diagram" width="70%"/>
 
 ## Pseudocode
 
