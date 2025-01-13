@@ -1,5 +1,5 @@
 # Vacation-Tracking-System (VTS)
-This project is a practical implementation of a Vacation Tracking System (VTS), inspired by the case study from the book Object-Oriented Analysis and Design with Applications, 3rd Edition. The system is designed to manage employee vacation requests, providing features for both employees and managers to streamline the request and approval process.
+This project is inspired by the case study from the book *Object-Oriented Analysis and Design with Applications, 3rd Edition*. The system is designed to manage employee vacation requests, providing features for both employees and managers to streamline the request and approval process.
 
 ## Content
    - [Vision](#project-vision)
